@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data and Databases (Optional, but best practice is not to push raw/large data)
+*.sqlite
+# *.db  # (Commented out because data/economic_data.db is already tracked)
+# data/ # (Commented out if you want to push data)
+
+# OS generated files
+.DS_Store
+Thumbs.db
