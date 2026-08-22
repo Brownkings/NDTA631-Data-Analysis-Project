@@ -3,6 +3,9 @@
 ## Project Overview
 This project investigates the relationship between Economic Growth (GDP) and Unemployment in South Africa using data sourced from the World Bank. The analysis explores Okun's Law by combining these two datasets and visualizing the trends and correlations over time.
 
+## Video Presentation
+The project video presentation is included as `Video Presentation.mp4` in the root directory. It provides a complete walkthrough of the project objectives, data cleaning pipeline, database integration, numerical analysis, and data visualizations.
+
 ## Prerequisites
 Ensure you have Python installed. You can install the required dependencies using the provided `requirements.txt` file.
 
@@ -29,7 +32,11 @@ Ensure you have Python installed. You can install the required dependencies usin
    *Alternatively, you can open the notebook directly using your IDE (like VS Code or JupyterLab).*
 
 ## Project Structure
+- `Video Presentation.mp4` - Video presentation covering the project analysis and findings.
 - `data/` - Contains the raw World Bank CSV datasets and the generated SQLite database.
-- `docs/` - Contains the final project report in DOCX and PDF formats.
+- `docs/` - Contains the final project report in DOCX and PDF formats, as well as `Presentation_Script.md`.
 - `notebooks/` - Contains the Jupyter Notebook used for the core numerical analysis and visualization.
+- `presentation_visuals/` - Contains screenshots and visual assets used during the presentation.
 - `scripts/` - Contains Python scripts used for database setup and data preparation.
+- `requirements.txt` - Project python dependencies and presentation deliverable details.
+
